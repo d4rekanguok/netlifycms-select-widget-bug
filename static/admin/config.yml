@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: d4rekanguok/select-widget-bug
+  branch: master
+
+media_folder: /static/assets
+public_folder: /assets
+
+collections:
+  - label: Blog
+    name: blog
+    folder: content
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      
+      - label: Language
+        name: lang
+        widget: select
+        options:
+          - { label: "한국어", value: "ko" }
+          - { label: "영어", value: "en" }
+          - { label: "일본어", value: "ja" }
+          - { label: "중국어", value: "zh" }
