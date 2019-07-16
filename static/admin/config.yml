@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: d4rekanguok/select-widget-bug
+  repo: d4rekanguok/netlifycms-select-widget-bug
   branch: master
 
 media_folder: /static/assets
